@@ -2,6 +2,7 @@
     "description": "A Composer plugin for installing Apiato Containers (of type apiato-container).",
     "name": "mohammad-alavi/container-installer",
     "type": "composer-plugin",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "apiato\\installer\\": "src/"
