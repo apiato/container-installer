@@ -1,6 +1,6 @@
 {
     "description": "A Composer plugin for installing Apiato Containers (of type apiato-container).",
-    "name": "apiato/containers-installer",
+    "name": "apiato/container-installer",
     "type": "composer-plugin",
     "autoload": {
         "psr-4": {
