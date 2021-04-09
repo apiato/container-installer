@@ -2,8 +2,8 @@
 
 namespace apiato\installer;
 
-use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
+use Composer\Package\PackageInterface;
 
 /**
  * Class ContainerInstaller
@@ -23,7 +23,7 @@ class ContainerInstaller extends LibraryInstaller
 			$containerName = $extras->apiato->container->name;
 		}
 		$separator = '\\';
-		return "app" . $separator . "Modules" . $separator . $containerName;
+		return "app" . $separator . "Containers" . $separator . "VendorSection" . $separator . $containerName;
 	}
 
 	/**
