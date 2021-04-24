@@ -5,6 +5,11 @@ namespace apiato\installer;
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
 
+/**
+ * Class ContainerInstaller
+ *
+ * @author  Johannes Schobel <johannes.schobel@googlemail.com>
+ */
 class ContainerInstaller extends LibraryInstaller
 {
 	/**
@@ -17,7 +22,7 @@ class ContainerInstaller extends LibraryInstaller
 		if (isset($extras->apiato->container->name)) {
 			$containerName = $extras->apiato->container->name;
 		}
-		return "app/Vendor/" . $containerName;
+		return "app/Containers/VendorSection/" . $containerName;
 	}
 
 	/**
