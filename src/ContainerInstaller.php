@@ -22,7 +22,7 @@ class ContainerInstaller extends LibraryInstaller
 		if (isset($extras->apiato->container->name)) {
 			$containerName = $extras->apiato->container->name;
 		}
-		return "app/Containers/VendorSection/" . $containerName;
+		return "app/Containers/Vendor/" . $containerName;
 	}
 
 	/**
